@@ -167,6 +167,7 @@ section{
 
 .card__text{
     width: 60%;
+    min-width: 280px;
     font-family: "Nunito";
     font-size: 16px;
 }
