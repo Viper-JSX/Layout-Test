@@ -27,6 +27,10 @@ section{
 
 }
 
+.hidden{
+    visibility: hidden;
+}
+
 .title{
     text-align: center;
     font-family: "Nunito";
@@ -60,13 +64,19 @@ section{
 }
 
 .intro > .container{
-    display: fle;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     flex-grow: 1;
+    background-color: green;
 }
 
 .intro__inner{
     width: 80%;
-    background-color: green;
+    min-width: 320px;
+    margin-right: auto;
 }
 
 
@@ -119,8 +129,18 @@ section{
 }
 
 .intro-slide-navigation{
-    right: 56px;
+    margin-right: 56px;
 }
+
+.container {
+    display: flex;
+  }
+  .container > div:first-child {
+    margin-right: auto;
+  }
+  .container > div:last-child {
+    margin-left: auto;
+  }
 
 .intro-slide-navigation__list{
     margin: 0;
@@ -404,3 +424,7 @@ footer > p{
     padding: 1rem 2rem 1rem 2rem;
     margin: 0;
 }
+
+
+
+/**/
