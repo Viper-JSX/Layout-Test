@@ -1,6 +1,8 @@
 :root{
     --light-color: #FFFFFF;
     --transparent-dark-color: rgba(0, 0, 0, 0.2);
+
+    --thin-gray-border: 1px solid gray;
 }
 
 *{
@@ -16,9 +18,17 @@ body{
 
 
 /*--- General styles ---*/
+.title{
+    text-align: center;
+}
+
 .symbol{
     font-size: 1.5rem;
 }
+
+
+
+
 
 
 /*--- Intro ---*/
@@ -209,4 +219,41 @@ body{
 
 .slider-count{
     margin-top: 2rem;
+}
+
+
+
+/*--- Why section ---*/
+.why-section{
+    padding: 5rem 0 5rem 0;
+    background-color: var(--transparent-dark-color);
+}
+
+.why-section > .text{
+    text-align: center;
+}
+
+.why-section > .image-container{
+    text-align: center;
+}
+
+.why-section_image{
+    width: 50%;
+    min-width: 320px;
+}
+
+.info-block{
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-block__item{
+    width: 15%;
+    min-width: 320px;
+    margin: 0.2rem;
+    padding: 0.5rem;
+    background-color: var(--light-color);
+    border-radius: 10px;
 }
