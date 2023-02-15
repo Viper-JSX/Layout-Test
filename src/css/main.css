@@ -117,3 +117,45 @@ body{
     height: 100%;
     background-color: var(--transparent-dark-color);
 }
+
+
+
+
+
+/*--- Cards ---*/
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 50%;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-card__image{
+    width: 100%;
+}
+
+.card__text{
+    width: 60%;
+    font-family: "Nunito";
+    font-size: 16px;
+}
+
+.quoted-text{
+    text-align: center;
+    font-size: 20px;
+}
+
+.quoted-text__author{
+    text-align: center;
+}
+
+.card{
+    border: 2px solid black;
+}
