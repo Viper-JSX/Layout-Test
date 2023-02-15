@@ -23,10 +23,6 @@ header{
     width: 100%;
 }
 
-section{
-
-}
-
 .hidden{
     visibility: hidden;
 }
@@ -123,6 +119,11 @@ section{
     border-top-right-radius: 22px;
     border-bottom-right-radius: 22px;
     transform: translateX(-0.75rem);
+    transition: 0.3s;
+}
+
+.email-form > input[type="submit"]:hover{
+    background-color: green;
 }
 
 .intro-slide-navigation{
