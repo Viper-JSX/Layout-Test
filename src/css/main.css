@@ -10,6 +10,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Yantramanav";
 }
 
 
@@ -33,12 +34,19 @@ body{
     text-align: center;
 }
 
+.intro__inner__title{
+    font-size: 60px;
+    font-weight: 300;
+    font-family: "Nunito";
+}
+
 .intro__inner__text{
     max-width: 560px;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .intro-slide-navigation{
-    background-color: red;;
     position: absolute;
     right: 56px;
 }
