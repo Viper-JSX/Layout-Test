@@ -71,7 +71,6 @@ section{
     align-items: center;
     flex-wrap: wrap;
     flex-grow: 1;
-    background-color: green;
 }
 
 .intro__inner{
@@ -432,7 +431,6 @@ footer > p{
 @media screen and (max-width: 640px){
     .intro-slide-navigation{
         margin: 1rem 0 1rem 0;
-        background-color: red;
     }
 
     .intro-slide-navigation__list{
