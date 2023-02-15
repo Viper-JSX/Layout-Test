@@ -51,6 +51,29 @@ body{
     right: 56px;
 }
 
+.intro-slide-navigation__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro-slide-navigation__list > li{
+    width: 9px;
+    height: 9px;
+    margin: 15px 0 15px 0;
+    background-color: #DCDCDC;
+    border-radius: 50%;
+}
+
+.intro-slide-navigation__list > li.selected{
+    width: 12px;
+    height: 12px;
+}
+
 .intro-image{
     width: 100%;
     height: 100%;
