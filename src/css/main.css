@@ -291,3 +291,15 @@ body{
 .stockist-item > *{
     margin: 0.1rem;
 }
+
+
+
+
+/*--- Contact us ---*/
+.contact-us-section{
+    text-align: center;
+}
+
+.contacts-contaier > *{
+    margin: 0 3rem 0 3rem
+}
