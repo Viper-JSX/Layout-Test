@@ -28,6 +28,7 @@ section{
 }
 
 .hidden{
+    flex-grow: 1;
     visibility: hidden;
 }
 
@@ -74,7 +75,7 @@ section{
 }
 
 .intro__inner{
-    width: 80%;
+    flex-grow: 1;
     min-width: 320px;
     margin-right: auto;
 }
@@ -427,4 +428,18 @@ footer > p{
 
 
 
-/**/
+/*--- media query---*/
+@media screen and (max-width: 640px){
+    .intro-slide-navigation{
+        margin: 1rem 0 1rem 0;
+        background-color: red;
+    }
+
+    .intro-slide-navigation__list{
+        flex-direction: row;
+    }
+
+    .intro-slide-navigation__list > li{
+        margin: 0 15px 0 15px;
+    }
+}
