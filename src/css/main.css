@@ -66,11 +66,12 @@ section{
 .intro__inner__text{
     max-width: 560px;
     font-size: 20px;
+    font-family: "Yantramanav";
     font-weight: 300;
 }
 
 .email-form{
-
+    margin-top: 3rem
 }
 
 .email-form > input[type="email"]{
@@ -304,9 +305,14 @@ section{
     text-align: center;
 }
 
+.contact-us-section > .text{
+    font-size: 1.2rem;
+}
+
 .contacts-contaier > *{
     margin: 0 3rem 0 3rem
 }
+
 
 
 
@@ -321,6 +327,21 @@ section{
     align-items: center;
     flex-direction: column;
 }
+
+.sign-up-section > .title{
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-section > .text{
+    font-size: 1.2rem;
+    font-family: "Nunito";
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Footer*/
 
 footer{
     background-color: #DCDCDC;
