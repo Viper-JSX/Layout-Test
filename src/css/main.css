@@ -40,7 +40,7 @@ section{
 
 /*--- Intro ---*/
 .intro{
-    height: 100vh;
+    min-height: 100vh;
     color: var(--light-color);
     position: relative;
     display: flex;
@@ -56,7 +56,7 @@ section{
 
 .intro__inner{
     width: 80%;
-    background-color: red;
+    background-color: green;
 }
 
 
@@ -71,7 +71,6 @@ section{
     font-family: "Yantramanav";
     font-weight: 300;
     text-align: center;
-    background-color: green;
 }
 
 .intro__inner > .email-form, .intro__inner__text{
