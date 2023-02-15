@@ -18,6 +18,11 @@ body{
 
 
 /*--- General styles ---*/
+
+header{
+    width: 100%;
+}
+
 section{
 
 }
@@ -45,13 +50,18 @@ section{
     position: relative;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
 .logo-icon{
-    top: 33px;
-    left: 35px;
-    position: absolute;
+    margin-top: 33px;
+    margin-left: 35px;
+}
+
+.intro > .container{
+    display: fle;
+    flex-grow: 1;
 }
 
 .intro__inner{
@@ -109,7 +119,6 @@ section{
 }
 
 .intro-slide-navigation{
-    position: absolute;
     right: 56px;
 }
 
