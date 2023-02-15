@@ -257,3 +257,35 @@ body{
     background-color: var(--light-color);
     border-radius: 10px;
 }
+
+
+
+
+
+/*--- Find us section ---*/
+.find-us-section{  
+    margin-top: 5rem;
+}
+
+.find-us-section > .text{
+    text-align: center;
+}
+
+.stockist-items-container{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stockist-item{
+    width: max-content;
+    min-width: 128px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.stockist-item > *{
+    margin: 0.1rem;
+}
