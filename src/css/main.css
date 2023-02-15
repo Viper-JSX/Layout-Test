@@ -190,6 +190,25 @@ section{
     font-size: 20px;
 }
 
+blockquote:before {
+  content: open-quote;
+  text-align: left;
+}
+
+blockquote:after {
+  content: close-quote;
+  text-align: right;
+}
+
+blockquote:before, blockquote:after {
+    display: inline-block;
+    width: 100%;
+    color: #DCDCDC;
+    font-size: 72px;
+    font-family: "Nunito";
+}
+
+
 .quoted-text__author{
     text-align: center;
 }
