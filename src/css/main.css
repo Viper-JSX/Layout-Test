@@ -224,6 +224,11 @@ section{
     justify-content: space-evenly;
 }
 
+.range-section__slider__image{
+    width: 60%;
+    min-width: 200px;
+}
+
 .range-section__slider__left-arrow, .range-section__slider__right-arrow{
     width: 2.5rem;
     height: 2.5rem;
