@@ -46,6 +46,33 @@ body{
     font-weight: 300;
 }
 
+.email-form{
+
+}
+
+.email-form > input[type="email"]{
+    width: 20.5rem;
+    height: 47px;
+    padding-left: 1.8rem;
+    border-radius: 22px;
+    border: none;
+}
+
+.email-form > input[type="email"]:focus{
+    outline: none;
+}
+
+.email-form > input[type="submit"]{
+    width: 10.5rem;
+    height: 47px;
+    color: var(--light-color);
+    background-color: #20ab50;
+    border: none;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    transform: translateX(-1.5rem);
+}
+
 .intro-slide-navigation{
     position: absolute;
     right: 56px;
@@ -69,7 +96,7 @@ body{
     border-radius: 50%;
 }
 
-.intro-slide-navigation__list > li.selected{
+.intro-slide-navigation__list > li.active{
     width: 12px;
     height: 12px;
 }
