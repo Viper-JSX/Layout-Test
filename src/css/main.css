@@ -14,6 +14,13 @@ body{
 }
 
 
+
+/*--- General styles ---*/
+.symbol{
+    font-size: 1.5rem;
+}
+
+
 /*--- Intro ---*/
 .intro{
     height: 100vh;
@@ -164,3 +171,45 @@ body{
 
 
 /*--- Range section ---*/
+.range-section{
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.range-section__title{
+    margin: 0;
+}
+
+.slider-container{
+    width: 100%;
+}
+
+.range-section__slider{
+    width: 100%;
+    margin: 7rem 0 7rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.range-section__slider__left-arrow, .range-section__slider__right-arrow{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.range-section__slider__left-arrow{
+    background-image: url("../files/images/slider_elements/arrow_left.png");
+}
+
+.range-section__slider__right-arrow{
+    background-image: url("../files/images/slider_elements/arrow_right.png");
+}
+
+.slider-count{
+    margin-top: 2rem;
+}
