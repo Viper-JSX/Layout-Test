@@ -1,4 +1,5 @@
 :root{
+    --light-color: #FFFFFF;
     --transparent-dark-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -15,7 +16,31 @@ body{
 /*--- Intro ---*/
 .intro{
     height: 100vh;
+    color: var(--light-color);
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-icon{
+    top: 33px;
+    left: 35px;
+    position: absolute;
+}
+
+.intro__inner{
+    text-align: center;
+}
+
+.intro__inner__text{
+    max-width: 560px;
+}
+
+.intro-slide-navigation{
+    background-color: red;;
+    position: absolute;
+    right: 56px;
 }
 
 .intro-image{
