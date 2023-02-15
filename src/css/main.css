@@ -328,8 +328,14 @@ section{
     font-size: 1.2rem;
 }
 
+.contacts-contaier{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .contacts-contaier > *{
-    margin: 0 3rem 0 3rem
+    margin: 1rem 3rem 1rem 3rem
 }
 
 
