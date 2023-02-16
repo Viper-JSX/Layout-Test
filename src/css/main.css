@@ -50,7 +50,11 @@ blockquote{
 }
 
 .link{
-    color: lawngreen
+    color: lawngreen;
+}
+
+button, input, .link{
+    cursor: pointer;
 }
 
 
@@ -58,7 +62,7 @@ blockquote{
 
 /*--- Intro ---*/
 .intro{
-    min-height: 800px;
+    min-height: 100vh;
     color: var(--light-color);
     position: relative;
     display: flex;
