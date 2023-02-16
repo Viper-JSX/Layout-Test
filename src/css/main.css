@@ -227,10 +227,13 @@ button, input, .link{
 
 
 /*--- Cards ---*/
-.cards{
+.text-and-image-card-container{
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+}
+
+.text-and-image-card-container:nth-child(2n + 2){
+    flex-wrap: wrap-reverse;
 }
 
 .cards .title{
