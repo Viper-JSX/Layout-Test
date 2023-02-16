@@ -23,11 +23,6 @@ header{
     width: 100%;
 }
 
-.hidden{
-    visibility: hidden;
-    display: none;
-}
-
 .title{
     text-align: center;
     font-family: "Nunito";
@@ -58,8 +53,8 @@ header{
 .logo-icon{
     width: 142px;
     height: 57px;
-    margin-top: 33px;
-    margin-left: 35px;
+    top: 33px;
+    left: 35px;
     position: absolute;
 }
 
