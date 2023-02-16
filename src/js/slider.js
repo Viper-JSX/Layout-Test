@@ -41,6 +41,7 @@ const slideImg = slide.querySelector("img");
 const sliderCounter = document.getElementById("range-section").querySelector(".slider-counter");
 
 let currentSlide = 0;
+let fadeTransitionFinished = true; //User to prevent user from breaking slide animation
 
 sliderButtons.forEach((button) => {
     button.addEventListener("click", handleSliderButtonClick);
@@ -53,12 +54,15 @@ if(slides.length > 0){
 }
 
 
+
 function renderSlide(slideToRender){
     slideImg.classList.add("faded"); //Toggle fade effect
-    
+    fadeTransitionFinished = false;
+
     setTimeout(() => {
         slideImg.src = slideToRender.imgUrl;
         slideImg.classList.remove("faded");
+        fadeTransitionFinished = true;
     }, 500) //500ms is the duration of transition, it can be found in CSS file (.range-section .slide > .slide__image)
 
     document.getElementById("range-section").querySelector(".slider__symbol").textContent = slideToRender.symbol;
@@ -66,6 +70,8 @@ function renderSlide(slideToRender){
 }
 
 function handleSliderButtonClick(event){
+    if(!fadeTransitionFinished) return;
+
     const offset = event.target.dataset.sliderButton === "next" ? 1 : -1;
     currentSlide += offset;
 
