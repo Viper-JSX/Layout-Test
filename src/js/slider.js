@@ -41,9 +41,6 @@ const slideImg = slide.querySelector("img");
 const sliderCounter = document.getElementById("range-section").querySelector(".slider-counter");
 
 let currentSlide = 0;
-//const slidesCounter = ...
-
-
 
 sliderButtons.forEach((button) => {
     button.addEventListener("click", handleSliderButtonClick);
