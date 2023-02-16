@@ -67,7 +67,12 @@ blockquote{
 }
 
 .link{
-    color: lawngreen;
+    color: #20ab50;
+    transition: 0.1s;
+}
+
+.link:hover{
+    transform: scale(1.1);
 }
 
 button, input, .link{
