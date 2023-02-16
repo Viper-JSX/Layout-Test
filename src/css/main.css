@@ -378,26 +378,34 @@ blockquote:before, blockquote:after {
 
 /*--- Find us section ---*/
 .find-us-section{  
-    margin-top: 5rem;
+    margin-top: 100px;
+}
+
+.find-us-section > .title{
+    margin: 0;
+   padding: 0;
 }
 
 .find-us-section > .text{
     text-align: center;
+    margin: 16px 0 0 0;
 }
 
 .stockist-items-container{
-    padding: 3rem;
+    padding: 74px 74px 74px 74px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    column-gap: 75px;
+    row-gap: 70px;
 }
 
 .stockist-item{
-    width: max-content;
-    min-width: 128px;
-    margin: 2rem;
+    max-width: 128px;
     display: flex;
     flex-direction: column;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .stockist-item > *{
@@ -485,4 +493,12 @@ footer > p{
     .intro-slide-navigation__list > li{
         margin: 0 15px 0 15px;
     } 
+
+    .email-form > input[type='submit']{
+        width: 100px;
+    }
+
+    .email-form > input[type='email']{
+        width: 200px;
+    }
 }
