@@ -28,7 +28,6 @@ header{
 .section-title{
     margin: 0 0 30px 0;
     padding: 0;
-    background-color: red;
 }
 
 .title{
@@ -40,7 +39,6 @@ header{
 }
 
 .title-sub-text{
-    background-color: red;
     margin: 0px 0 0 0;
     padding: 0;
     text-align: center;
@@ -131,7 +129,7 @@ button, input, .link{
 
 .email-form{
     min-width: 320px;
-    margin-top: 57px;
+    margin-top: 60px;
 }
 
 .email-form > input[type="email"]{
