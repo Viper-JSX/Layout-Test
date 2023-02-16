@@ -136,42 +136,22 @@
         <p class="text title-sub-text">View the styles available now from select stockists</p>
 
         <div class="slider-container">
-            <h3>A slider</h3>
-            <div class="range-section__slider">
-                <ul>
-                    <li class="slide">
-                        <img src="./files/images/slider_images/Ty_N_Steel.png" />
-                    </li>
-
-                    <li class="slide">
-                        <img src="./files/images/slider_images/MAX.png" />
-                    </li>
-
-                    <li class="slide">
-                        <img src="./files/images/slider_images/EMME.png" />
-                    </li>
-                </ul>
-                <div class="pre-btn">Prev</div>
-                <div class="nxt-btn" >Next</div>
+            <div id="range-section__slider" class="range-section__slider">
+                <div class="prev-btn" data-slider-button="prev">Prev</div>
+                    <div class="slide">
+                        <img class="slide__image" />
+                    </div>
+                <div class="next-btn" data-slider-button="next" >Next</div>
             </div>
+            
+            <b class="symbol slider__symbol"></b>
 
-        </div>
-
-        <!-- <div class="slider-container">
-            <div class="range-section__slider">
-                <div class="range-section__slider__left-arrow"></div>
-                <img class="range-section__slider__image" src="./files/images/range_slider_images/Ty_N_Steel.png" alt="Slider image" />
-                <div class="range-section__slider__right-arrow"></div>
-            </div>
-
-            <b class="symbol slider-symbol">TY</b>
-
-            <div class="slider-count">
-                <span class="slider-count__current">1</span>
+            <div class="slider-counter">
+                <span class="slider-counter__current">1</span>
                 /
-                <span class="slider-count__total">7</span>
+                <span class="slider-counter__total">7</span>
             </div>
-        </div> -->
+        </div>
 
 
     </section>

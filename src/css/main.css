@@ -324,13 +324,25 @@ button, input, .link{
     justify-content: space-evenly;
 }
 
-.range-section__slider__image{
+/* .range-section__slider__image{
     width: 60%;
     max-width: 465px;
     min-width: 200px;
+} */
+
+.range-section__slider__slides{
+    width: max-content;
+    height: max-content;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    list-style: none;
+    border: 2px solid red;
 }
 
-.range-section__slider__left-arrow, .range-section__slider__right-arrow{
+/* .range-section__slider__left-arrow, .range-section__slider__right-arrow{
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;
@@ -343,11 +355,11 @@ button, input, .link{
 
 .range-section__slider__right-arrow{
     background-image: url("../files/images/slider_elements/arrow_right.png");
-}
+} */
 
-.slider-count{
+/* .slider-count{
     margin-top: 2rem;
-}
+} */
 
 
 
