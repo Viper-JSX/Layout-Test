@@ -344,7 +344,7 @@ blockquote{
 
 /*--- Why section ---*/
 .why-section{
-    padding: 85px 0 85px 0;
+    padding: 85px 0 92px 0;
     background-color: var(--transparent-dark-color);
 }
 
@@ -451,6 +451,7 @@ blockquote{
 
 /*--- Sign up ---*/
 .sign-up-section{
+    min-height: 450px;
     margin-top: 5rem;
     padding: 5rem;
     background-color: #F3F3F3;
