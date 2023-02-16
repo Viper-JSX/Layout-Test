@@ -170,13 +170,13 @@ button, input, .link{
     background-color: green;
 }
 
-.intro-slide-navigation{
+.section-navigation{
     right: 54px;
-    position: absolute;
+    position: fixed;
 }
 
 
-.intro-slide-navigation__list{
+.section-navigation__list{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -186,15 +186,16 @@ button, input, .link{
     flex-direction: column;
 }
 
-.intro-slide-navigation__list > li{
+.section-navigation__list > li > a{
     width: 8px;
     height: 8px;
     margin: 8.5px 0 8.5px 0;
     background-color: #DCDCDC;
     border-radius: 50%;
+    display: inline-block;
 }
 
-.intro-slide-navigation__list > li.active{
+.section-navigation__list > li.active > a{
     width: 12px;
     height: 12px;
 }
@@ -465,7 +466,7 @@ footer > p{
 
 /*--- media query---*/
 @media screen and (max-width: 900px){ /* To wrap intro slider's navigation */
-    .intro-slide-navigation{
+    /* .intro-slide-navigation{
         width: 100%;
         position: static;
     }
@@ -480,7 +481,7 @@ footer > p{
 
     .intro-slide-navigation__list > li{
         margin: 0 15px 0 15px;
-    } 
+    }  */
 
     .email-form > input[type='submit']{
         width: 100px;
