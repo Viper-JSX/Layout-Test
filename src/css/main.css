@@ -45,6 +45,10 @@ header{
     font-size: 1.5rem;
 }
 
+blockquote{
+    quotes: "\22" "\22";
+}
+
 .link{
     color: lawngreen
 }
@@ -255,27 +259,26 @@ header{
     text-align: center;
     font-size: 20px;
     font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 30px;
 }
 
-blockquote:before {
+.quoted-text:before {
   content: open-quote;
   text-align: left;
 }
 
-blockquote:after {
+.quoted-text:after {
   content: close-quote;
   text-align: right;
 }
 
-blockquote:before, blockquote:after {
+.quoted-text:before, .quoted-text:after {
     display: inline-block;
     width: 100%;
     color: #DCDCDC;
     font-size: 72px;
     font-family: "Nunito";
+    font-style: italic;
 }
 
 
