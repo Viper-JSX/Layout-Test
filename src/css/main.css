@@ -337,9 +337,13 @@ button, input, .link{
 .range-section .slide > .slide__image{
     width: 100%;
     height: 100%;
+    transition: 0.5s;
     object-fit: scale-down;
 }
 
+.range-section .slide > .slide__image.faded{
+    opacity: 0;
+}
 
 .range-section__slider__slides{
     width: max-content;
@@ -487,26 +491,8 @@ footer > p{
 }
 
 
-
 /*--- media query---*/
 @media screen and (max-width: 900px){ /* To wrap intro slider's navigation */
-    /* .intro-slide-navigation{
-        width: 100%;
-        position: static;
-    }
-    
-    .intro-slide-navigation{
-        margin: 1rem 0 1rem 0;
-    }
-
-    .intro-slide-navigation__list{
-        flex-direction: row;
-    }
-
-    .intro-slide-navigation__list > li{
-        margin: 0 15px 0 15px;
-    }  */
-
     .email-form > input[type='submit']{
         width: 100px;
     }

@@ -16,17 +16,17 @@ const slides = [
 
     {
         imgUrl: "./files/images/slider_images/Noel_Bracken.png",
-        symbol: "CAMILE"
+        symbol: "NOEL"
     },
 
     {
         imgUrl: "./files/images/slider_images/Nat_Navy.png",
-        symbol: "CAMILE"
+        symbol: "NAT"
     },
 
     {
         imgUrl: "./files/images/slider_images/Roan_L_White.png",
-        symbol: "CAMILE"
+        symbol: "ROAN"
     },
 
     {
@@ -54,7 +54,13 @@ if(slides.length > 0){
 
 
 function renderSlide(slideToRender){
-    slideImg.src = slideToRender.imgUrl;
+    slideImg.classList.add("faded"); //Toggle fade effect
+    
+    setTimeout(() => {
+        slideImg.src = slideToRender.imgUrl;
+        slideImg.classList.remove("faded");
+    }, 500) //500ms is the duration of transition, it can be found in CSS file (.range-section .slide > .slide__image)
+
     document.getElementById("range-section").querySelector(".slider__symbol").textContent = slideToRender.symbol;
     sliderCounter.querySelector(".slider-counter__current").textContent = currentSlide + 1;
 }
