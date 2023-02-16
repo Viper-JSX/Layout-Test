@@ -232,7 +232,7 @@ button, input, .link{
     flex-wrap: wrap;
 }
 
-.text-and-image-card-container:nth-child(2n + 2){
+.text-and-image-card-container:nth-child(2n + 2){ /* Wrap-reverse each second element */
     flex-wrap: wrap-reverse;
 }
 
