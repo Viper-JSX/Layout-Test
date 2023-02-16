@@ -17,11 +17,20 @@ function handleSectionScroll(){
     const viewportHeight = window.innerHeight;
 
     sections.forEach((section, index) => {
-        const sectionOffsetTop = section.getBoundingClientRect().top;
+        const rect = section.getBoundingClientRect();
+        const sectionOffsetTop = rect.top;
 
-        if(sectionOffsetTop < scrollTop + viewportHeight / 2 && scrollTop < sectionOffsetTop + viewportHeight / 2){
+        if(
+            (sectionOffsetTop < scrollTop + viewportHeight / 2 && scrollTop < sectionOffsetTop + viewportHeight / 2 )
+            || 
+            (sectionOffsetTop + rect.height > viewportHeight / 2 && sectionOffsetTop + rect.height < rect.height )         
+        ){
             resetSectionNavigation();
             sectionNavigationListItems[index].classList.add("active");          
+        }
+
+        if(index === 1){
+            console.log(sectionOffsetTop + rect.height < rect.height, viewportHeight / 2);
         }
     });
 }
