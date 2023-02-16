@@ -3,8 +3,6 @@ const sectionNavigationListItems =
 document.getElementById("section-navigation")
 .querySelectorAll("li");
 
-console.log(sections, sectionNavigationListItems);
-
 window.addEventListener("scroll", handleSectionScroll );
 
 
@@ -27,10 +25,6 @@ function handleSectionScroll(){
         ){
             resetSectionNavigation();
             sectionNavigationListItems[index].classList.add("active");          
-        }
-
-        if(index === 1){
-            console.log(sectionOffsetTop + rect.height < rect.height, viewportHeight / 2);
         }
     });
 }
