@@ -144,7 +144,7 @@ header{
 }
 
 .intro-slide-navigation{
-    right: 56px;
+    right: 54px;
     position: absolute;
 }
 
@@ -171,7 +171,7 @@ header{
 .intro-slide-navigation__list > li{
     width: 8px;
     height: 8px;
-    margin: 0 0 15px 0;
+    margin: 8.5px 0 8.5px 0;
     background-color: #DCDCDC;
     border-radius: 50%;
 }
