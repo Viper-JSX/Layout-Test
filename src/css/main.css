@@ -30,9 +30,12 @@ header{
     font-family: "Nunito";
     font-size: 30px;
     font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 38.4px;
+}
+
+.title-sub-text{
+    margin: 30px 0 0 0;
+    text-align: center;
 }
 
 .text{
@@ -99,7 +102,7 @@ button, input, .link{
 }
 
 .intro__inner__title{
-    margin: 10px 0 0 0;
+    margin: 0;
     padding: 0;
     font-size: 60px;
     font-weight: 300;
@@ -107,16 +110,9 @@ button, input, .link{
 }
 
 .intro__inner__text{
-    margin: 18px 0 0 0;
-    padding: 20px 0 0 0;
     max-width: 570px;
     font-size: 20px;
-    font-family: "Yantramanav";
-    text-align: center;
     font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 27px;
 }
 
 .email-form{
@@ -258,8 +254,7 @@ button, input, .link{
 }
 
 .card__text{
-    width: 60%;
-    max-width: 400px;
+    width: 70%;
     min-width: 280px;
     font-family: "Nunito";
     font-size: 16px;
@@ -311,9 +306,9 @@ button, input, .link{
     align-items: center;
 }
 
-.range-section__title{
+/* .range-section__title{
     margin: 0;
-}
+} */
 
 .slider-container{
     width: 100%;
@@ -321,7 +316,7 @@ button, input, .link{
 
 .range-section__slider{
     width: 100%;
-    margin: 119px 0 119px 0;
+    margin: 120px 0 120px 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -360,15 +355,6 @@ button, input, .link{
     background-color: var(--transparent-dark-color);
 }
 
-.why-section > .title{
-    margin-top: 0;
-    font-size: 30px;
-}
-
-.why-section > .text{
-    text-align: center;
-}
-
 .why-section > .image-container{
     text-align: center;
 }
@@ -403,16 +389,6 @@ button, input, .link{
     margin-top: 100px;
 }
 
-.find-us-section > .title{
-    margin: 0;
-   padding: 0;
-}
-
-.find-us-section > .text{
-    text-align: center;
-    margin: 16px 0 0 0;
-}
-
 .stockist-items-container{
     padding: 74px 74px 74px 74px;
     display: flex;
@@ -442,10 +418,6 @@ button, input, .link{
     text-align: center;
 }
 
-.contact-us-section > .text{
-    font-size: 1.2rem;
-}
-
 .contacts-contaier{
     display: flex;
     flex-wrap: wrap;
@@ -465,23 +437,20 @@ button, input, .link{
 .sign-up-section{
     min-height: 450px;
     margin-top: 5rem;
-    padding: 5rem;
     background-color: #F3F3F3;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
 .sign-up-section > .title{
     margin: 0;
-    padding: 0;
 }
 
 .sign-up-section > .text{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     font-family: "Nunito";
-    margin: 0;
-    padding: 0;
 }
 
 
