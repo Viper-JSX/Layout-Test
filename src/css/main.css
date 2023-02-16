@@ -26,14 +26,13 @@ header{
 }
 
 .section-title{
-    margin: 0 0 30px 0;
-    padding: 0;
+    margin: 0 0 10px 0;
+    padding: 0 !important;
 }
 
 .title{
     text-align: center;
     font-family: "Nunito";
-    font-size: 30px;
     font-weight: 300;
     line-height: 38.4px;
 }
@@ -53,7 +52,8 @@ header{
 }
 
 .symbol{
-    font-size: 1.5rem;
+    font-size: 24px;
+    line-height: 38.4px;
 }
 
 .title, .title-sub-text, .text{
