@@ -33,7 +33,7 @@ header{
 .title{
     text-align: center;
     font-family: "Nunito";
-    font-weight: 300;
+    /* font-weight: 800; */ /*needs configuration*/
     line-height: 38.4px;
 }
 
