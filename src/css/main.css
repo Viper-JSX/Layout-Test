@@ -542,6 +542,7 @@ footer > p{
 @media screen and (max-width: 1240px){
     .why-section{
         background-image: none;
+        padding: 0 0.5rem 0 0.5rem;
     }
 
     .why-section .image-container{
@@ -560,6 +561,6 @@ footer > p{
     
     .info-blocks-container .info-block .info-block__item{
         width: 150px;      
-        margin: 10px;
+        margin: 5px;
     }
 } 
