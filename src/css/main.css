@@ -59,7 +59,7 @@ header{
 }
 
 blockquote{
-    quotes: "\22" "\22";
+    quotes: "\201F" "\22";
 }
 
 .link{
@@ -140,10 +140,6 @@ button, input, .link{
     color: #8c8c8c;
     font-family: "Yantramanav";
     font-size: 18px;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 18.08px;
 }
 
 .email-form > input[type="email"]:focus{
@@ -159,10 +155,8 @@ button, input, .link{
     border-radius: 0 22px 22px 0;
     transform: translateX(-0.75rem);
     transition: 0.3s;
-    font-family: "Nunito";
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 18.08px;
+    font-family: "Yantramanav";
+    font-size: 18px;
 }
 
 .email-form > input[type="submit"]:hover{
