@@ -117,6 +117,7 @@ button, input, .link{
 
 .intro__inner__title{
     font-size: 60px;
+    font-weight: 300;
 }
 
 .intro__inner__text{
@@ -401,7 +402,9 @@ button, input, .link{
 /*--- Why section ---*/
 .why-section{
     padding: 85px 0 92px 0;
-    background-color: var(--transparent-dark-color);
+    /* background-color: var(--transparent-dark-color); */
+    background-image: url("../files/images/why_section/shoes_image.png");
+    background-size: contain;
 }
 
 .why-section > .image-container{
