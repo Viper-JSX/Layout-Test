@@ -82,43 +82,40 @@ header{
 .small-size{
     /* font-family: "Yantramanav - Thin"; */
     font-size: 16px;
-    font-weight: 400;
     letter-spacing: 0.8px;
     line-height: 24px;
-    font-style: normal;
     letter-spacing: normal;
     line-height: normal;
-    font-style: normal;
 
 }
 
 .light-size{
     font-size: 18px;
-    font-weight: 400;
-    font-style: normal;
     letter-spacing: normal;
     line-height: normal;
 }
 
 .medium-size{
     font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
     letter-spacing: normal;
     line-height: 30px;
-    text-align: center;
     letter-spacing: 1px;
 }
 
 .small-size, .light-size, .medium-size{
     font-weight: 400;
     font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
 }
 
 .symbol{
+    font-family: "Nunito";
     font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 38.4px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .title, .title-sub-text, .text{
@@ -507,9 +504,22 @@ button, input, .link{
     /* font-family: "Yantramanav"; */
 }
 
+.info-block__item > b{
+    font-family: "Yantramanav";
+    font-size: 16px;
+    /* font-weight: 400; */
+    font-style: normal;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+}
+
 .info-block__item .text{
+    /* font-family: "Yantramanav - Thin"; */
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 0.15px;
+    line-height: 22px;
 }
 
 
