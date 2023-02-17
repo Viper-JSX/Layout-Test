@@ -475,7 +475,7 @@ button, input, .link{
 /*--- Why section ---*/
 .why-section{
     min-height: 800px;
-    padding: 85px 60px 35px 60px;
+    padding: 82px 60px 35px 60px;
     background-image: url("../files/images/why_section/shoes_image.png");
     background-color: #EDEDED;
     background-size: cover;
@@ -544,7 +544,7 @@ button, input, .link{
 
 /*--- Find us section ---*/
 .find-us-section{  
-    margin-top: 100px;
+    padding: 92px 0 0 0;
 }
 
 .stockist-items-container{
