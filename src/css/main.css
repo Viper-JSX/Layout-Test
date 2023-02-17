@@ -372,7 +372,7 @@ button, input, .link{
 
 /*--- Range section ---*/
 .range-section{
-    padding: 72px 0 72px 0;
+    padding: 75px 0 75px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -386,7 +386,7 @@ button, input, .link{
 
 .range-section__slider{
     width: 100%;
-    margin: 120px 0 120px 0;
+    margin: 137px 0 110px 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -460,7 +460,7 @@ button, input, .link{
 
 .symbol{
     display: block;
-    margin-bottom: 38px;
+    margin-bottom: 23px;
 }
 
 
