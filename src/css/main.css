@@ -407,14 +407,14 @@ button, input, .link{
     background-size: contain;
 }
 
-.why-section > .image-container{
+/* .why-section > .image-container{
     text-align: center;
-}
+} */
 
-.why-section_image{
+/* .why-section_image{
     width: 50%;
     min-width: 320px;
-}
+} */
 
 .info-block{
     padding: 0 1rem 0 1rem;
