@@ -315,11 +315,14 @@ button, input, .link{
 .card{
     width: 50%;
     min-width: 320px;
+
+    /* padding: 120px 0 0 0; */
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    letter-spacing: 0.8px;
 }
 
 .image-card__image{
@@ -328,6 +331,7 @@ button, input, .link{
 
 .card__text{
     width: 70%;
+    max-width: 400px;
     min-width: 280px;
 }
 
