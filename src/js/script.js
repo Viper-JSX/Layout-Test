@@ -1,9 +1,17 @@
+const forms = document.querySelectorAll("form");
 const sections = document.querySelectorAll("section");
 const sectionNavigationListItems = 
 document.getElementById("section-navigation")
 .querySelectorAll("li");
 
 window.addEventListener("scroll", handleSectionScroll );
+
+forms.forEach((form) => {
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        event.target.reset();
+    });
+});
 
 
 function resetSectionNavigation(){
