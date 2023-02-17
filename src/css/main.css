@@ -407,6 +407,10 @@ button, input, .link{
     background-repeat: no-repeat;
 }
 
+.why-section .title-sub-text{
+    margin-bottom: 10px;
+}
+
  .why-section .image-container{
     display: none;
 }
@@ -549,7 +553,7 @@ footer > p{
 @media screen and (max-width: 1240px){
     .why-section{
         background-image: none;
-        padding: 0 0.5rem 0 0.5rem;
+        padding: 85px 0.5rem 0 0.5rem;
     }
 
     .why-section .image-container{
