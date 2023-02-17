@@ -401,10 +401,9 @@ button, input, .link{
 
 /*--- Why section ---*/
 .why-section{
-    padding: 85px 0 35px 0;
-    /* background-color: var(--transparent-dark-color); */
+    padding: 85px 60px 35px 60px;
     background-image: url("../files/images/why_section/shoes_image.png");
-    background-size: contain;
+    background-size: 100% auto;
 }
 
 /* .why-section > .image-container{
@@ -424,7 +423,7 @@ button, input, .link{
 }
 
 .info-block{
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem 0 rem;
     display: flex;
     flex-direction: column;
 }
@@ -432,11 +431,20 @@ button, input, .link{
 .info-block__item{
     width: 240px;
     margin: 0.2rem;
-    padding: 0.5rem;
+    padding: 13px;
     background-color: var(--light-color);
     border-radius: 10px;
 }
 
+.info-block__item > *{
+    margin: 0;
+    padding: 0;
+}
+
+.info-block__item .text{
+    font-size: 15px;
+    font-weight: 400;
+}
 
 
 
@@ -528,3 +536,20 @@ footer > p{
         width: 200px;
     }
 }
+
+@media screen and (max-width: 1024px){
+    .info-blocks-container{
+        flex-direction: column;
+        background-color: red;
+    }
+
+    .info-blocks-container .info-block{
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .info-blocks-container .info-block .info-block__item{
+        width: 150px;      
+    }
+} 
