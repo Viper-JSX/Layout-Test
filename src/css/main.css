@@ -380,13 +380,11 @@ button, input, .link{
 .range-section__slider__slides{
     width: max-content;
     height: max-content;
-    background-color: red;
     margin: 0;
     padding: 0;
     position: relative;
     display: flex;
     list-style: none;
-    border: 2px solid red;
 }
 
 .symbol{
@@ -460,7 +458,7 @@ button, input, .link{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    column-gap: 75px;
+    column-gap: 70px;
     row-gap: 70px;
 }
 
@@ -529,6 +527,14 @@ footer > p{
 
 
 /*--- media query---*/
+@media screen and (max-width: 520px){
+    .stockist-items-container{
+        padding: 74px 15px 74px 15px;
+        column-gap: 35px;
+        row-gap: 35px;
+    }
+}
+
 @media screen and (max-width: 900px){ /* To wrap intro slider's navigation */
     .email-form > input[type='submit']{
         width: 100px;
