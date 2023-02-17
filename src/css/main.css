@@ -99,7 +99,7 @@ header{
     font-size: 20px;
     letter-spacing: normal;
     line-height: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 0.1px;
 }
 
 .small-size, .light-size, .medium-size{
@@ -295,12 +295,6 @@ button, input, .link{
     flex-wrap: wrap-reverse;
 }
 
-.cards .title{
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-}
-
 .card{
     width: 50%;
     min-width: 320px;
@@ -490,12 +484,11 @@ button, input, .link{
 }
 
 .info-block__item{
-    width: 240px;
+    width: 231px;
     margin-bottom: 10px;
-    padding: 13px;
+    padding: 15px;
     background-color: var(--light-color);
     border-radius: 10px;
-    font-size: 15px;
 }
 
 .info-block__item > *{
