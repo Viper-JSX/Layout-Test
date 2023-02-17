@@ -336,6 +336,9 @@ button, input, .link{
     transition: 0.3s;
     cursor: pointer;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 [data-slider-button]:hover{
@@ -348,6 +351,7 @@ button, input, .link{
     content: "\2039";
     position: absolute;
     top: -18px;
+    line-height: 60px;
 }
 
 [data-slider-button='next']::before{
@@ -405,6 +409,7 @@ button, input, .link{
     background-color: #EDEDED;
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 
  .why-section .image-container{
@@ -439,6 +444,7 @@ button, input, .link{
 .info-block__item > *{
     margin: 0;
     padding: 0;
+    font-family: "Yantramanav";
 }
 
 .info-block__item .text{
