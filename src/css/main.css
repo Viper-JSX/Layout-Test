@@ -404,18 +404,18 @@ button, input, .link{
     min-height: 800px;
     padding: 85px 60px 35px 60px;
     background-image: url("../files/images/why_section/shoes_image.png");
+    background-color: #EDEDED;
     background-size: cover;
     background-position: center center;
 }
 
-/* .why-section > .image-container{
-    text-align: center;
-} */
+ .why-section .image-container{
+    display: none;
+}
 
-/* .why-section_image{
-    width: 50%;
-    min-width: 320px;
-} */
+ .why-section_image{
+    width: 100%;
+}
 
 
 .info-blocks-container{
@@ -425,7 +425,7 @@ button, input, .link{
 }
 
 .info-block{
-    padding: 0 1rem 0 rem;
+    padding: 0 1rem 0 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -540,9 +540,16 @@ footer > p{
 }
 
 @media screen and (max-width: 1240px){
+    .why-section{
+        background-image: none;
+    }
+
+    .why-section .image-container{
+        display: block;
+    }
+
     .info-blocks-container{
         flex-direction: column;
-        background-color: red;
     }
 
     .info-blocks-container .info-block{
@@ -553,5 +560,6 @@ footer > p{
     
     .info-blocks-container .info-block .info-block__item{
         width: 150px;      
+        margin: 10px;
     }
 } 
