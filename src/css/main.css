@@ -59,7 +59,7 @@ header{
 }
 
 blockquote{
-    quotes: "\201F" "\22";
+    quotes: "\FF02" "\FF02";
 }
 
 .link{
@@ -266,16 +266,18 @@ button, input, .link{
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
+    position: relative;
 }
 
 .quoted-text:before {
-  content: open-quote;
-  text-align: left;
+    content: open-quote;
+    text-align: left;
 }
 
 .quoted-text:after {
-  content: close-quote;
-  text-align: right;
+    content: close-quote;
+    text-align: right;
+    line-height: 60px;
 }
 
 .quoted-text:before, .quoted-text:after {
