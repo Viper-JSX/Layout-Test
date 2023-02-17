@@ -401,7 +401,7 @@ button, input, .link{
 
 /*--- Why section ---*/
 .why-section{
-    padding: 85px 0 92px 0;
+    padding: 85px 0 35px 0;
     /* background-color: var(--transparent-dark-color); */
     background-image: url("../files/images/why_section/shoes_image.png");
     background-size: contain;
@@ -416,22 +416,26 @@ button, input, .link{
     min-width: 320px;
 } */
 
+
+.info-blocks-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .info-block{
     padding: 0 1rem 0 1rem;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .info-block__item{
-    width: 15%;
-    min-width: 320px;
+    width: 240px;
     margin: 0.2rem;
     padding: 0.5rem;
     background-color: var(--light-color);
     border-radius: 10px;
 }
-
 
 
 
