@@ -475,12 +475,11 @@ button, input, .link{
 /*--- Why section ---*/
 .why-section{
     min-height: 800px;
-    padding: 82px 60px 35px 60px;
-    background-image: url("../files/images/why_section/shoes_image.png");
+    padding: 82px 0 35px 0;
     background-color: #EDEDED;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .why-section .title-sub-text{
@@ -498,8 +497,14 @@ button, input, .link{
 
 .info-blocks-container{
     width: 100%;
+    max-width: 1280px;
+    padding: 0 60px 0 60px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-image: url("../files/images/why_section/shoes_image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .info-block{
