@@ -621,7 +621,6 @@ button, input, .link{
     width: var(--width);
     height: 1px;
     background-color: #FFFFFF;
-    background-color: red;
     top: var(--y);
     left: var(--x);
     position: absolute;
@@ -769,6 +768,7 @@ footer > p{
 
     .info-blocks-container{
         flex-direction: column;
+        background-image: none;
     }
 
     .info-blocks-container .info-block{
@@ -783,3 +783,8 @@ footer > p{
     }
 } 
 
+@media screen and (max-width: 1278px){
+    .indicator-strip, .indicator-ellipse{
+        display: none;
+    }
+}
