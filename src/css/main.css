@@ -548,7 +548,7 @@ button, input, .link{
 /*--- Why section ---*/
 .why-section{
     min-height: 800px;
-    padding: 82px 0 35px 0;
+    padding: 78px 0 35px 0;
     background-color: #EDEDED;
     display: flex;
     align-items: center;
@@ -556,7 +556,7 @@ button, input, .link{
 }
 
 .why-section .title-sub-text{
-    margin-bottom: 10px;
+    margin-bottom: -8px;
 }
 
  .why-section .image-container{
@@ -571,12 +571,13 @@ button, input, .link{
 .info-blocks-container{
     width: 100%;
     max-width: 1280px;
-    padding: 0 60px 0 60px;
+    padding: 0 45px 0 45px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-image: url("../files/images/why_section/shoes_image.png");
     background-position: center center;
+    background-position: 50% 115%;
     background-repeat: no-repeat;
 }
 
@@ -589,7 +590,7 @@ button, input, .link{
 .info-block__item{
     width: 231px;
     margin-bottom: 10px;
-    padding: 15px;
+    padding: 7px 0 15px 15px;
     background-color: var(--light-color);
     border-radius: 10px;
 }
