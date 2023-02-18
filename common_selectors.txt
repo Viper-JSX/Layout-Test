@@ -1,0 +1,336 @@
+title{
+    font-family: Nunito
+    line-height: 38.4px
+    letter-spacing: 0.15px || normal
+    font-weight: 300
+}
+
+
+title-big{
+font-size: 60px;
+}
+
+title-medium{
+
+}
+
+card-title{
+
+}
+
+
+
+-----------------------
+/* Style for "Coming Soo" */
+font-family: Nunito;
+
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 38.4px;
+
+
+line-height: normal;
+-----------------------
+
+
+
+
+
+
+text{
+
+}
+
+title-sub-text{
+    line-height: 40px
+}
+
+intro-sub-text{
+  letter-spacing: 0.1px;
+  line-height: 27px;  
+  letter-spacing: 0.09px;
+
+  font-family: "Yantramanav - Thin";
+font-weight: 100;
+font-style: normal;
+letter-spacing: 0.09px;
+line-height: 40px;
+}
+
+card-text{
+
+}
+
+card-quote{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+title{
+    font-family: Nunito;
+    font-weight: 300 or 400 for some cases (The range, why plae, find us)
+    font-style: normal
+}
+
+title-big{
+    font-size: 60px;
+}
+
+
+title-middle{
+    font-size: 30px;
+}
+
+
+title-sub-text{
+    font-style: normal
+}
+
+
+
+Coming soon{
+    
+    letter-spacing: normal;
+    line-height: 38.4px;
+    text-align: center;
+    /* Text style for "Coming Soo" */
+    
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+About plae{
+    font-size: 30px;
+    
+    letter-spacing: normal;
+    line-height: 38.4px;
+    text-align: center;
+    /* Text style for "About Plae" */
+    
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+Customers say{
+    font-size: 30px;
+    
+    letter-spacing: normal;
+    line-height: 38.4px;
+    text-align: center;
+    /* Text style for "What our c" */
+    
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+The range{
+    /* Style for "The Range" */
+    width: 353px;
+    height: 66px;
+    color: #000000;
+    font-family: "Yantramanav - Thin";
+    font-size: 18px;
+    
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "The Range" */
+    font-family: Nunito;
+
+    
+    letter-spacing: normal;
+    line-height: 38.4px;
+    /* Text style for "" */
+    font-family: Nunito;
+
+    
+    letter-spacing: 0.15px;
+    line-height: 38.4px;
+
+    /* Text style for "View the s" */
+    font-family: "Yantramanav - Thin";
+    font-weight: 100;
+    
+    letter-spacing: 0.09px;
+    line-height: 40px;
+}
+
+
+Why plae{
+    /* Style for "Why Plae?" */
+    width: 423px;
+    height: 67px;
+    color: #000000;
+    font-family: "Yantramanav - Thin";
+    font-size: 18px;
+
+    
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "Why Plae?" */
+    font-family: Nunito;
+    font-size: 30px;
+
+    
+    letter-spacing: normal;
+    line-height: 38.4px;
+    /* Text style for "" */
+    font-family: Nunito;
+    font-size: 30px;
+
+    
+    letter-spacing: 0.15px;
+    line-height: 38.4px;
+    /* Text style for "Some of th" */
+
+    font-family: "Yantramanav - Thin";
+    font-weight: 100;
+    
+    letter-spacing: 0.09px;
+    line-height: 40px;
+}
+
+The range{
+    /* Style for "The Range" */
+    width: 353px;
+    height: 66px;
+    color: #000000;
+    font-family: "Yantramanav - Thin";
+    font-size: 18px;
+    
+
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "The Range" */
+    font-family: Nunito;
+    font-size: 30px;
+
+    
+    letter-spacing: normal;
+    line-height: 38.4px;
+    /* Text style for "" */
+    font-family: Nunito;
+    font-size: 30px;
+
+    
+    letter-spacing: 0.15px;
+    line-height: 38.4px;
+    /* Text style for "View the s" */
+    font-family: "Yantramanav - Thin";
+    font-weight: 100;
+    
+    letter-spacing: 0.09px;
+    line-height: 40px;
+}
+
+Find us{
+    /* Style for "Where can" */
+    width: 319px;
+    height: 64px;
+    color: #000000;
+    font-family: "Yantramanav - Thin";
+    font-size: 18px;
+
+    
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "Where can" */
+    font-family: Nunito;
+    font-size: 30px;
+
+    
+    letter-spacing: normal;
+    line-height: 38.4px;
+    /* Text style for "" */
+    font-family: Nunito;
+    font-size: 30px;
+
+    
+    letter-spacing: 0.15px;
+    line-height: 38.4px;
+    /* Text style for "See below" */
+
+    font-family: "Yantramanav - Thin";
+    font-weight: 100;
+    
+    letter-spacing: 0.09px;
+    line-height: 40px;
+}
+
+
+Like stock plae {
+    /* Style for "Like to st" */
+    width: 242px;
+    height: 59px;
+    color: #000000;
+    font-family: "Yantramanav - Thin";
+    font-size: 18px;
+
+    
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "Like to st" */
+    font-family: Nunito;
+    font-size: 24px;
+
+    
+    letter-spacing: 0.12px;
+    line-height: 38.4px;
+
+    /* Text style for "Call or em" */
+    font-family: "Yantramanav - Thin";
+    font-weight: 100;
+    
+    letter-spacing: 0.09px;
+    line-height: 36px;
+}
+
+Be first{
+    /* Style for "Be the fir" */
+    width: 422px;
+    height: 65px;
+    color: #000000;
+    font-family: Nunito;
+    font-size: 30px;
+
+    
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "B, e the f" */
+    font-family: "Nunito - Light";
+
+    
+    letter-spacing: normal;
+    line-height: 36px;
+    /* Text style for "Sign Up fo" */
+    font-family: Yantramanav;
+    font-size: 22px;
+
+    
+    letter-spacing: normal;
+    line-height: 38px;
+}
