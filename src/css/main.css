@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@100;300;400&family=Yantramanav:wght@100;300;400&display=swap');
+
 :root{
     --light-color: #FFFFFF;
     --transparent-dark-color: rgba(0, 0, 0, 0.2);
@@ -58,7 +60,6 @@ header{
 }
 
 .small-size, .light-size, .medium-size{
-    font-weight: 400;
     font-style: normal;
 }
 
@@ -66,7 +67,6 @@ header{
     text-align: center;
     font-family: "Nunito";
     font-weight: 300;
-    /* font-weight: 300 or 400 for some cases (The range, why plae, find us) */
     font-style: normal;
     letter-spacing: normal;
     line-height: 38.4px;
@@ -74,7 +74,7 @@ header{
 
 
 .section-title{
-    margin: 0 0 10px 0;
+    margin: 0 0 5px 0;
     padding: 0 1rem 0 1rem !important;
 }
 
@@ -197,13 +197,13 @@ button, input, .link{
     line-height: 62.4px; */
     margin: 0;
     padding: 0;
-    margin: 10px 0 30px 0;
+    margin: 0px 0 38px 0;
+    font-weight: 400;
 }
 
 .intro__inner__text{
     width: 100%;
-    margin-top: 8px;
-    font-weight: 100;
+    font-weight: 300;
     box-sizing:content-box;
     padding: 0;
     letter-spacing: 0.1px;
@@ -324,15 +324,16 @@ button, input, .link{
 .card{
     width: 50%;
     min-width: 320px;
-
-    /* padding: 120px 0 0 0; */
+    min-height: 460px;
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     letter-spacing: 0.8px;
+    
 }
+
 
 .image-card__image{
     width: 100%;
@@ -340,47 +341,92 @@ button, input, .link{
 
 .card__text{
     width: 70%;
-    /* max-width: 399px; */
-    max-width: 419px;
-    max-width: 425px;
+    max-width: 402px;
     min-width: 280px;
     font-size: 16px;
     letter-spacing: 0.8px;
-    font-family: "Yantramanav"; /*Yantramanav Thin*/
+    font-weight: thin;
     line-height: 24px;
 }
 
+.quote-card:has(.title) > .title{
+    margin-top: 50px;
+    
+}
+
+.quote-card:has(.title) .card__quote{
+    margin-top: -10px;
+}
+
+.quote-card:has(.title) .quoted-text::before{
+    transform: translate(-25px, 20px);
+}
+
+.quote-card:has(.title) .quoted-text::after{
+    transform: translate(20px, -20px);
+}
+
+.quote-card:has(.title) .quote-author{
+    transform: translateY(-20px);
+}
+
+.quote-card-without-title .quoted-text::before{
+    transform: translate(-30px, 15px);
+}
+
+.quote-card-without-title .quoted-text::after{
+    transform: translate(10px, 10px);
+}
+
+.quote-card-without-title .quoted-text{
+    margin: 70px 0 40px 0;
+}
+
+.quote-card-without-title .quote-author{
+ 
+}
+
+.card__text{
+    margin: 0px 0 26.5px 0;
+}
+
+.card:first-child > .title{
+     margin-bottom: 37px;
+
+}
+
 .quoted-text{
-    max-width: 324px;
+    max-width: 345px;
     text-align: center;
     position: relative;
 }
 
 .card__quote{
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 100;
     font-style: normal;
 
     letter-spacing: 1px;
     line-height: 30px;
+    margin: 0 10px 0 10px;
 }
 
 .quoted-text:before {
-    content: open-quote;
+    content: "\FF02";
     text-align: left;
 }
 
 .quoted-text:after {
-    content: close-quote;
+    content: "\FF02";
     text-align: right;
-    line-height: 60px;
 }
 
 .quoted-text:before, .quoted-text:after {
     display: inline-block;
     width: 100%;
     color: #DCDCDC;
-    font-size: 72px;
+    font-size: 60px;
+    font-weight: 800;
     font-family: "Nunito";
     font-style: italic;
 }
@@ -714,3 +760,4 @@ footer > p{
         margin: 5px;
     }
 } 
+
