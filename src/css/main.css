@@ -482,24 +482,32 @@ button, input, .link{
     align-items: center;
 }
 
-[data-slider-button]:hover{
+/* [data-slider-button]:hover{
     color: #20ab50;
     border-color: #20ab50;
     box-shadow: 0 0 5px #20ab50;
 }
+*/
 
-[data-slider-button='prev']::before{
-    content: "\2039";
-    position: absolute;
-    top: -18px;
-    line-height: 60px;
+.next-btn__arrow, .prev-btn__arrow{
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #d9d9d9;
+    transform-origin: center center;
 }
 
-[data-slider-button='next']::before{
-    content: "\203A";
-    position: absolute;
-    top: -18px;
+.next-btn__arrow{
+    border-right: 2px solid #d9d9d9;
+    transform: rotate(-45deg) translateX(-25%);
 }
+
+.prev-btn__arrow{
+    border-left: 2px solid #d9d9d9;
+    transform: rotate(45deg) translateX(25%);
+    /* transform: translateX(25%); */
+}
+
+
 
 .range-section .slide{
     width: 60%;
