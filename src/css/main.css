@@ -3,7 +3,6 @@
 :root{
     --light-color: #FFFFFF;
     --transparent-dark-color: rgba(0, 0, 0, 0.2);
-
     --thin-gray-border: 1px solid gray;
 }
 
@@ -19,7 +18,15 @@ body{
     font-family: "Yantramanav-Thin";
 }
 
+.css  .title{
+    margin: 0;
+    padding: 0
+} 
 
+.text{
+    margin: 0;
+    padding: 0;
+} 
 
 /*--- General styles ---*/
 
@@ -37,19 +44,13 @@ header{
 }
 
 .small-size{
-    /* font-family: "Yantramanav - Thin"; */
     font-size: 16px;
     letter-spacing: 0.8px;
     line-height: 24px;
-    letter-spacing: normal;
-    line-height: normal;
-
 }
 
 .light-size{
     font-size: 18px;
-    letter-spacing: normal;
-    line-height: normal;
 }
 
 .medium-size{
@@ -57,9 +58,12 @@ header{
     letter-spacing: normal;
     line-height: 30px;
     letter-spacing: 0.1px;
+    font-style: normal;
 }
 
-.small-size, .light-size, .medium-size{
+.small-size, .light-size{
+    letter-spacing: normal;
+    line-height: normal;
     font-style: normal;
 }
 
@@ -75,7 +79,6 @@ header{
 
 .section-title{
     margin: 0 0 5px 0;
-    padding: 0 1rem 0 1rem !important;
 }
 
 .title-light{
@@ -90,10 +93,7 @@ header{
     color: #000000;
     font-size: 30px;
     font-weight: 900;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: normal;
-    text-align: center;
     line-height: 36px; 
 }
 
@@ -101,10 +101,13 @@ header{
     color: #ffffff;
     font-size: 60px;
     font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 38.4px;
     text-align: center;
+}
+
+.title-big, .title-medium, .symbol{
+    font-style: normal;
+    letter-spacing: normal;
 }
 
 .title-sub-text{
@@ -112,15 +115,12 @@ header{
     padding: 0;
     text-align: center;
     font-style: normal;
-    /* letter-spacing: 0.15px; */
 }
 
 .symbol{
     font-family: "Nunito";
     font-size: 24px;
     font-weight: 300;
-    font-style: normal;
-    letter-spacing: normal;
     line-height: 38.4px;
     text-align: center;
     text-transform: uppercase;
@@ -189,7 +189,6 @@ button, input, .link{
 }
 
 .intro__inner__title{
-    margin: 0;
     margin: 5px 0 38px 0;
     letter-spacing: 1px;
 }
@@ -197,7 +196,7 @@ button, input, .link{
 .intro__inner__text{
     width: 100%;
     font-weight: 300;
-    box-sizing:content-box;
+    /* box-sizing: content-box; */
     letter-spacing: 0.1px;
     line-height: 27px;
 }
@@ -206,10 +205,9 @@ button, input, .link{
     margin-top: 52px
 }
 
-
 .email-form{
     min-width: 320px;
-    margin-top: 0px;
+    /* margin-top: 0px; */
 }
 
 .email-form > input[type="email"]{
@@ -326,8 +324,6 @@ button, input, .link{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    letter-spacing: 0.8px;
-    
 }
 
 .image-card__image{
@@ -340,10 +336,8 @@ button, input, .link{
     min-width: 280px;
     font-size: 16px;
     letter-spacing: 0.8px;
-    font-weight: thin;
     line-height: 24px;
 }
-
 
 .quoted-text{
     max-width: 345px;
@@ -352,13 +346,12 @@ button, input, .link{
 }
 
 .card__quote{
+    margin: 0 10px 0 10px;
     font-size: 20px;
     font-weight: 100;
     font-style: normal;
-
     letter-spacing: 1px;
     line-height: 30px;
-    margin: 0 10px 0 10px;
 }
 
 .quoted-text:before {
@@ -432,10 +425,6 @@ button, input, .link{
     margin: 75px 0 40px 0;
 }
 
-.quote-card-without-title .quote-author{
- 
-}
-
 .card:first-child > .title{
      margin-bottom: 37px;
 
@@ -482,12 +471,6 @@ button, input, .link{
     align-items: center;
 }
 
-/* [data-slider-button]:hover{
-    color: #20ab50;
-    border-color: #20ab50;
-    box-shadow: 0 0 5px #20ab50;
-}
-*/
 
 .next-btn__arrow, .prev-btn__arrow{
     width: 10px;
@@ -507,13 +490,16 @@ button, input, .link{
     /* transform: translateX(25%); */
 }
 
+.next-btn:hover, .prev-btn:hover{
+    border-color: #20ab50;
+}
 
 
 .range-section .slide{
     width: 60%;
     max-width: 465px;
     min-width: 200px;
-    height: 400px; /*change this*/
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -528,16 +514,6 @@ button, input, .link{
 
 .range-section .slide > .slide__image.faded{
     opacity: 0;
-}
-
-.range-section__slider__slides{
-    width: max-content;
-    height: max-content;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    display: flex;
-    list-style: none;
 }
 
 .symbol{
@@ -564,27 +540,26 @@ button, input, .link{
     margin-bottom: -8px;
 }
 
- .why-section .image-container{
+.why-section .image-container{
     display: none;
 }
 
- .why-section_image{
+ .why-section__image{
     width: 100%;
 }
-
 
 .info-blocks-container{
     width: 100%;
     max-width: 1280px;
     padding: 0 45px 0 45px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-image: url("../files/images/why_section/shoes_image.png");
     background-position: center center;
     background-position: 50% 115%;
     background-repeat: no-repeat;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .info-block{
@@ -596,7 +571,7 @@ button, input, .link{
 .info-block__item{
     width: 231px;
     margin-bottom: 10px;
-    padding: 8px 3px 15px 15px;
+    padding: 8px 3px 15px 15px; /*In design layout, padding variates across items*/
     background-color: var(--light-color);
     border-radius: 10px;
 }
@@ -645,10 +620,7 @@ button, input, .link{
     position: absolute;
 }
 
-.indicator-ellipse::before{
-    background-color: RED;
 
-}
 
 
 
@@ -689,6 +661,8 @@ button, input, .link{
 .stockist-item > .link{
     margin-top: 10px
 }
+
+
 
 
 
@@ -738,10 +712,10 @@ button, input, .link{
     margin-top: 40px
 }
 
+
 .sign-up-section > .text{
     font-size: 22px;
     line-height: 38px;
-    font-family: "Yantramanav";
 }
 
 
@@ -756,18 +730,17 @@ button, input, .link{
 
 
 
-/*Footer*/
-
+/*--- Footer ---*/
 footer{
     min-height: 40px;
     color: #FFFFFF;
     background-color: #DCDCDC;
-    padding: 14px 10px 14px 10px;
+    padding: 14px 35px 14px 35px;
 }
 
-footer > p{
-    margin: 0;
-    padding: 0;
+footer > .text{
+    font-size: 14px;
+    letter-spacing: 0.35px;
 }
 
 
