@@ -137,6 +137,7 @@ blockquote{
 .link{
     color: #20ab50;
     transition: 0.1s;
+    text-decoration: none;
 }
 
 .link:hover{
@@ -185,11 +186,9 @@ button, input, .link{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: red;
 }
 
 .intro__inner__title{
-    background-color: green;
     margin: 0;
     margin: 5px 0 38px 0;
     letter-spacing: 1px;
@@ -693,14 +692,14 @@ button, input, .link{
 }
 
 .contact-us-section > .title{
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     font-size: 24px;
     font-weight: 400;
 }
 
 
 .contacts-contaier{
-    margin-top: 40px;
+    margin-top: 42px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
