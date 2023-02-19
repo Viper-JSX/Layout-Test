@@ -685,17 +685,30 @@ button, input, .link{
 
 /*--- Contact us ---*/
 .contact-us-section{
+    padding-top: 6px;
     text-align: center;
 }
 
+.contact-us-section > .title{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contact-us-section:first-child{
+    line-height: 36px;
+    background-color: red;
+}
+
 .contacts-contaier{
+    margin-top: 45px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .contacts-contaier > *{
-    margin: 1rem 3rem 1rem 3rem
+    margin: 0rem 3rem 0rem 3rem;
+    font-weight: 100;
 }
 
 
