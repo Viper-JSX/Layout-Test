@@ -719,7 +719,6 @@ button, input, .link{
 /*--- Sign up ---*/
 .sign-up-section{
     min-height: 450px;
-    margin-top: 5rem;
     background-color: #F3F3F3;
     display: flex;
     align-items: center;
@@ -727,9 +726,13 @@ button, input, .link{
     flex-direction: column;
 }
 
+.sign-up-section > .email-form{
+    margin-top: 4px
+}
+
 .sign-up-section > .text{
-    font-size: 30px;
-    font-family: "Nunito";
+    font-size: 22px;
+    font-family: "Yantramanav";
 }
 
 
@@ -748,12 +751,15 @@ button, input, .link{
 /*Footer*/
 
 footer{
+    min-height: 40px;
+    color: #FFFFFF;
     background-color: #DCDCDC;
+    padding: 14px 10px 14px 10px;
 }
 
 footer > p{
-    padding: 1rem 2rem 1rem 2rem;
     margin: 0;
+    padding: 0;
 }
 
 
