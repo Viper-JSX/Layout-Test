@@ -698,13 +698,9 @@ button, input, .link{
     font-weight: 400;
 }
 
-.contact-us-section:first-child{
-    line-height: 36px;
-    background-color: red;
-}
 
 .contacts-contaier{
-    margin-top: 42px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
