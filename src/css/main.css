@@ -345,51 +345,6 @@ button, input, .link{
     line-height: 24px;
 }
 
-.card:not(.quote-card) > .title{
-    line-height: 30px;
-    margin: 25px 0 0 0;
-}
-
-.card__text{
-    margin: 0 0 23.5px 0;
-}
-
-.quote-card:has(.title) > .title{
-    margin: 55px 0 15px 0;
-}
-
-.quote-card:has(.title) .quoted-text::before{
-    transform: translate(-25px, 20px);
-}
-
-.quote-card:has(.title) .quoted-text::after{
-    transform: translate(20px, -20px);
-}
-
-.quote-card:has(.title) .quote-author{
-    transform: translateY(-25px);
-}
-
-.quote-card-without-title .quoted-text::before{
-    transform: translate(-30px, 15px);
-}
-
-.quote-card-without-title .quoted-text::after{
-    transform: translate(10px, 10px);
-}
-
-.quote-card-without-title .quoted-text{
-    margin: 70px 0 40px 0;
-}
-
-.quote-card-without-title .quote-author{
- 
-}
-
-.card:first-child > .title{
-     margin-bottom: 37px;
-
-}
 
 .quoted-text{
     max-width: 345px;
@@ -439,6 +394,53 @@ button, input, .link{
 
 }
 
+
+.card:not(.quote-card) > .title{
+    line-height: 30px;
+    margin: 25px 0 0 0;
+}
+
+.card__text{
+    margin: 0 0 23.5px 0;
+}
+
+.quote-card:has(.title) > .title{
+    margin: 55px 0 15px 0;
+}
+
+.quote-card:has(.title) .quoted-text::before{
+    transform: translate(-25px, 20px);
+}
+
+.quote-card:has(.title) .quoted-text::after{
+    transform: translate(20px, -20px);
+}
+
+.quote-card:has(.title) .quote-author{
+    transform: translateY(-25px);
+}
+
+.quote-card-without-title .quoted-text::before{
+    transform: translate(-30px, 15px);
+}
+
+.quote-card-without-title .quoted-text::after{
+    transform: translate(10px, 10px);
+}
+
+.quote-card-without-title .quoted-text{
+    max-width: 325px;
+    margin: 70px 0 40px 0;
+}
+
+.quote-card-without-title .quote-author{
+ 
+}
+
+.card:first-child > .title{
+     margin-bottom: 37px;
+
+}
 
 
 
