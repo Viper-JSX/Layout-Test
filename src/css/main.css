@@ -649,16 +649,16 @@ button, input, .link{
 
 /*--- Find us section ---*/
 .find-us-section{  
-    padding: 92px 0 0 0;
+    padding: 82px 0 0 0;
 }
 
 .stockist-items-container{
-    padding: 74px 74px 74px 74px;
+    padding: 62px 74px 85px 74px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 80px;
-    row-gap: 70px;
+    row-gap: 52px;
 }
 
 .stockist-item{
@@ -669,10 +669,17 @@ button, input, .link{
     font-weight: 400;
 }
 
-.stockist-item > *{
-    margin: 0.1rem;
+.stockist-item > b{
+    font-size: 16px;
 }
 
+.stockist-item > span, .stockist-item > b{
+    margin-top: 3px
+}
+
+.stockist-item > a{
+    margin-top: 8px
+}
 
 
 
