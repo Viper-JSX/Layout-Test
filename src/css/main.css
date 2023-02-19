@@ -331,7 +331,6 @@ button, input, .link{
     
 }
 
-
 .image-card__image{
     width: 100%;
 }
@@ -346,9 +345,17 @@ button, input, .link{
     line-height: 24px;
 }
 
+.card:not(.quote-card) > .title{
+    line-height: 30px;
+    margin: 25px 0 0 0;
+}
+
+.card__text{
+    margin: 0 0 23.5px 0;
+}
+
 .quote-card:has(.title) > .title{
     margin-top: 50px;
-    
 }
 
 .quote-card:has(.title) .card__quote{
@@ -381,10 +388,6 @@ button, input, .link{
 
 .quote-card-without-title .quote-author{
  
-}
-
-.card__text{
-    margin: 0px 0 26.5px 0;
 }
 
 .card:first-child > .title{
