@@ -589,7 +589,7 @@ button, input, .link{
 .info-block__item{
     width: 231px;
     margin-bottom: 10px;
-    padding: 7px 0 15px 15px;
+    padding: 8px 3px 15px 15px;
     background-color: var(--light-color);
     border-radius: 10px;
 }
@@ -647,7 +647,11 @@ button, input, .link{
 
 /*--- Find us section ---*/
 .find-us-section{  
-    padding: 85px 0 0 0;
+    padding: 80px 0 0 0;
+}
+
+.find-us-section > .title{
+    margin-bottom: 8px;
 }
 
 .stockist-items-container{
