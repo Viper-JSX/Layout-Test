@@ -355,11 +355,7 @@ button, input, .link{
 }
 
 .quote-card:has(.title) > .title{
-    margin-top: 50px;
-}
-
-.quote-card:has(.title) .card__quote{
-    margin-top: -10px;
+    margin: 55px 0 15px 0;
 }
 
 .quote-card:has(.title) .quoted-text::before{
@@ -371,7 +367,7 @@ button, input, .link{
 }
 
 .quote-card:has(.title) .quote-author{
-    transform: translateY(-20px);
+    transform: translateY(-25px);
 }
 
 .quote-card-without-title .quoted-text::before{
