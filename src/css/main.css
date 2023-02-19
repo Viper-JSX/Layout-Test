@@ -409,7 +409,7 @@ button, input, .link{
 }
 
 .quote-card:has(.title) .quoted-text::before{
-    transform: translate(-25px, 20px);
+    transform: translate(-25px, 25px);
 }
 
 .quote-card:has(.title) .quoted-text::after{
@@ -421,16 +421,16 @@ button, input, .link{
 }
 
 .quote-card-without-title .quoted-text::before{
-    transform: translate(-30px, 15px);
+    transform: translate(-40px, 10px);
 }
 
 .quote-card-without-title .quoted-text::after{
-    transform: translate(10px, 10px);
+    transform: translate(20px, 10px);
 }
 
 .quote-card-without-title .quoted-text{
     max-width: 325px;
-    margin: 70px 0 40px 0;
+    margin: 75px 0 40px 0;
 }
 
 .quote-card-without-title .quote-author{
