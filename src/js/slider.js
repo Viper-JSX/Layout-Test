@@ -35,13 +35,14 @@ const slides = [
     }
 ];
 
+
 const sliderButtons = document.querySelectorAll("[data-slider-button]");
 const slide = document.getElementById("range-section__slider").querySelector(".slide");
 const slideImg = slide.querySelector("img");
 const sliderCounter = document.getElementById("range-section").querySelector(".slider-counter");
 
 let currentSlide = 0;
-let fadeTransitionFinished = true; //User to prevent user from breaking slide animation
+let fadeTransitionFinished = true; //Used to prevent user from breaking slide animation
 
 sliderButtons.forEach((button) => {
     button.addEventListener("click", handleSliderButtonClick);
