@@ -437,13 +437,13 @@ button, input, .link{
 }
 
 .slider-container{
-    width: 91%;
+    width: 92%;
 }
 
 .range-section__slider{
     width: 100%;
     height: 398px;
-    margin: 140px 0 108px 0;
+    margin: 55px 0 33px 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -523,15 +523,15 @@ button, input, .link{
 /*--- Why section ---*/
 .why-section{
     min-height: 798px;
-    padding: 78px 0 35px 0;
+    padding: 82px 0 35px 0;
     background-color: #EDEDED;
+    background-color: green;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .why-section .title-sub-text{
-    margin-bottom: -8px;
 }
 
 .why-section .image-container{
