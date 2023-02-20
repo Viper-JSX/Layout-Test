@@ -73,7 +73,7 @@ function renderSlide(slideToRender){
 function handleSliderButtonClick(event){
     if(!fadeTransitionFinished) return;
 
-    const offset = event.target.dataset.sliderButton === "next" ? 1 : -1;
+    const offset = event.currentTarget.dataset.sliderButton === "next" ? 1 : -1;
     currentSlide += offset;
 
     if(currentSlide >= slides.length){

@@ -180,6 +180,7 @@ button, input, .link{
 }
 
 .intro__inner__title{
+    font-weight: 500;
     margin: 5px 0 38px 0;
     letter-spacing: 1px;
 
