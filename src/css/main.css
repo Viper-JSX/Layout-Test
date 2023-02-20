@@ -4,6 +4,8 @@
     --light-color: #FFFFFF;
     --transparent-dark-color: rgba(0, 0, 0, 0.2);
     --thin-gray-border: 1px solid gray;
+    --highlight-color: #20ab50;
+
 }
 
 *{
@@ -124,7 +126,7 @@ blockquote{
 }
 
 .link{
-    color: #20ab50;
+    color: var(--highlight-color);;
     transition: 0.1s;
     text-decoration: none;
 }
@@ -222,7 +224,7 @@ button, input, .link{
     width: 167px;
     height: 47px;
     color: var(--light-color);
-    background-color: #20ab50;
+    background-color: var(--highlight-color);;
     border: none;
     border-radius: 0 22px 22px 0;
     transform: translateX(-0.75rem);
@@ -483,7 +485,7 @@ button, input, .link{
 }
 
 .next-btn:hover, .prev-btn:hover{
-    border-color: #20ab50;
+    border-color: var(--highlight-color);;
 }
 
 
@@ -603,7 +605,7 @@ button, input, .link{
 .indicator-ellipse{
     width: 23px;
     height: 23px;
-    border: 4px solid #20ab50;
+    border: 4px solid var(--highlight-color);;
     background-color: #FFFFFF;
     border-radius: 50%;
     top: var(--y);
