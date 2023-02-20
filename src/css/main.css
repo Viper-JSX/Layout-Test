@@ -523,10 +523,8 @@ button, input, .link{
 /*--- Why section ---*/
 .why-section{
     min-height: 798px;
-    /* padding: 78px 0 35px 0; */
     padding: 76px 0 20px 0;
     background-color: #EDEDED;
-    background-color: green;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -621,15 +619,15 @@ button, input, .link{
 
 /*--- Find us section ---*/
 .find-us-section{  
-    padding: 80px 0 0 0;
+    padding: 85px 0 40px 0;
 }
 
 .find-us-section > .title{
-    margin-bottom: 6px;
+    line-height: 48px;
 }
 
 .stockist-items-container{
-    padding: 60px 74px 85px 74px;
+    padding: 70px 75px 45px 75px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -663,7 +661,7 @@ button, input, .link{
 
 /*--- Contact us ---*/
 .contact-us-section{
-    padding-bottom: 78px;
+    padding-bottom: 75px;
     text-align: center;
     line-height: 36px;  
 }
@@ -694,7 +692,7 @@ button, input, .link{
 
 /*--- Sign up ---*/
 .sign-up-section{
-    min-height: 450px;
+    min-height: 410px;
     background-color: #F3F3F3;
     display: flex;
     align-items: center;
@@ -728,10 +726,11 @@ button, input, .link{
 
 /*--- Footer ---*/
 footer{
+    /* margin-top: 50px; */
     min-height: 40px;
     color: #FFFFFF;
     background-color: #DCDCDC;
-    padding: 14px 35px 14px 35px;
+    padding: 12px 30px 12px 30px;
 }
 
 footer > .text{
