@@ -421,32 +421,19 @@ button, input, .link{
     
 }
 
-/* .quote-card-with-title > .title{
-    margin: 0px 0 0 0;
-} */
-
 .quote-card-with-title .quoted-text{
-    /* padding: 38px 0 38px 0; */
-    color: red;
     padding: 38px 0 38px 0; 
 } 
 
 .quote-card-with-title .quoted-text::before{
-    /* height: 36px; */
     height: 42px;
-
 }
 
 .quote-card-with-title .quoted-text::after{
     height: 25px;
 }
 
-.quote-card-with-title .quote-author{
-    line-height: 20px;
-}
-
 .quote-card-without-title .quoted-text{
-    color: red;
     padding: 68px 0 30px 0;
 }
 
@@ -458,7 +445,7 @@ button, input, .link{
     height: 20px;
 }
 
-.quote-card-without-title .quote-author{
+.quote-card-without-title .quote-author, .quote-card-with-title .quote-author{
     line-height: 20px;
 }
 
