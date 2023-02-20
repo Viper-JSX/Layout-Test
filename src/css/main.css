@@ -181,9 +181,9 @@ button, input, .link{
 
 .intro__inner__title{
     font-weight: 500;
-    margin: 5px 0 38px 0;
+    margin: 0 0 32px 0;
     letter-spacing: 1px;
-
+    line-height: 50px;
 }
 
 .intro__inner__text{
@@ -204,7 +204,7 @@ button, input, .link{
     /* margin-top: 0px; */
 }
 
-.email-form > input[type="email"]{
+.email-form > [type="email"]{
     width: 333px;
     height: 47px;
     padding-left: 1.8rem;
@@ -237,7 +237,6 @@ button, input, .link{
 
 .email-form > input[type="submit"]:hover{
     background-color: green;
-    font-size: 18px;
 }
 
 #section-navigation{
@@ -555,10 +554,13 @@ button, input, .link{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 
+        0 100px 30px 30px #EDEDED inset,
+        0 0 30px 30px #EDEDED inset;
 }
 
 .info-block{
-    padding: 0 1rem 0 1rem;
+    padding: 0px 1rem 0px 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -717,10 +719,11 @@ button, input, .link{
 
 /*--- Common styles that differ from others ---*/
 .range-section .title-sub-text, .why-section .title-sub-text, .find-us-section .title-sub-text{
+    margin: 10px 0 0 0;
     font-family: "Yantramanav";
     font-weight: 100;
     letter-spacing: 0.09px;
-    line-height: 40px;
+    line-height: 20px;
 }
 
 
