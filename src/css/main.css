@@ -429,7 +429,7 @@ button, input, .link{
 
 /*--- Range section ---*/
 .range-section{
-    padding: 75px 0 75px 0;
+    padding: 75px 0 80px 0;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -523,15 +523,13 @@ button, input, .link{
 /*--- Why section ---*/
 .why-section{
     min-height: 798px;
-    padding: 82px 0 35px 0;
+    /* padding: 78px 0 35px 0; */
+    padding: 76px 0 20px 0;
     background-color: #EDEDED;
     background-color: green;
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.why-section .title-sub-text{
 }
 
 .why-section .image-container{
