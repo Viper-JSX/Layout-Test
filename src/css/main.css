@@ -135,6 +135,10 @@ blockquote{
     transform: scale(1.1);
 }
 
+.tel-link{
+    color: #000000;
+}
+
 button, input, .link{
     cursor: pointer;
 }
@@ -730,6 +734,9 @@ button, input, .link{
     line-height: 20px;
 }
 
+.email-link, .tel-link{
+    font-weight: 400;
+}
 
 
 /*--- Footer ---*/
@@ -800,3 +807,4 @@ footer > .text{
         display: none;
     }
 }
+
