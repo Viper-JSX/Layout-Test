@@ -205,10 +205,9 @@ button, input, .link{
 
 .email-form{
     min-width: 320px;
-    /* margin-top: 0px; */
 }
 
-.email-form > [type="email"]{
+.email-form > input[type="email"]{
     width: 333px;
     height: 47px;
     padding-left: 1.8rem;
@@ -235,7 +234,7 @@ button, input, .link{
     transform: translateX(-0.75rem);
     transition: 0.3s;
     font-family: "Yantramanav";
-    font-size: 22px;
+    font-size: 19px;
     letter-spacing: 0.55px;
 }
 
@@ -244,8 +243,9 @@ button, input, .link{
 }
 
 #section-navigation{
-    right: 54px;
+    right: 4.2%;
     position: fixed;
+    z-index: 3;
 }
 
 
