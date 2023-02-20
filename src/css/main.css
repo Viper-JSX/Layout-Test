@@ -126,7 +126,7 @@ blockquote{
 }
 
 .link{
-    color: var(--highlight-color);;
+    color: var(--highlight-color);
     transition: 0.1s;
     text-decoration: none;
 }
