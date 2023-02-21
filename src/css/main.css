@@ -469,17 +469,18 @@ button, input, .link{
     width: 10px;
     height: 10px;
     border-bottom: 2px solid #d9d9d9;
-    transform-origin: center center;
 }
 
 .next-btn__arrow{
     border-right: 2px solid #d9d9d9;
     transform: rotate(-45deg) translateX(-25%);
+    transform-origin: 30% center;
 }
 
 .prev-btn__arrow{
     border-left: 2px solid #d9d9d9;
     transform: rotate(45deg) translateX(25%);
+    transform-origin: 70% center;
 }
 
 .next-btn:hover, .prev-btn:hover{
