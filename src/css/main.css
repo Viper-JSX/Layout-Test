@@ -244,7 +244,7 @@ button, input, .link{
 }
 
 #section-navigation{
-    right: 4.2%;
+    right: 4.4%;
     position: fixed;
     z-index: 3;
 }
@@ -263,7 +263,7 @@ button, input, .link{
 .section-navigation__list > li > a{
     width: 8px;
     height: 8px;
-    margin: 6px 0 6px 0;
+    margin: 6px 0 7px 0;
     background-color: #DCDCDC;
     border-radius: 50%;
     transition: 0.5s;
@@ -271,9 +271,9 @@ button, input, .link{
 }
 
 .section-navigation__list > li.active > a{
-    width: 12px;
-    height: 12px;
-    margin-bottom: 15px;
+    /* width: 12px;
+    height: 12px; */
+    transform: scale(1.5);
 }
 
 .intro-image-container{
