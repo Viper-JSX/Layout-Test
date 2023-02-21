@@ -121,9 +121,6 @@ header{
     padding: 0 0.5em 0 0.5em;
 }
 
-/* blockquote{
-    quotes:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAGaSURBVEhLtZXbboMwEEQNCbk9gPj/rwy5QSC0OQ4DG+MHqNSRLGwY78yOnTb5ecP9I9LhuQh/8RLtoGkad71eXdu2LkkSXzjPc3c8Hv06BFyGuGmaurIsXZZl8w4gPB4Pdz6fXVVV7nK5+Ofz+YwW7/t+5Ngn70FU4H6/e/c4gchzs9kMjAlwX6+X5zMHmNhut6OZmQBOVVwkWkVARQS+UxwR5uIfDge/H8wEiAcBCxxZVxaKQwXBbrebC8gdByxHAsXpIgSF67r2c/jaFxXgA2RaVjwUQJjiVlDgQPluz4e5XU99vdF13Vc8bFY8MRCnXCuB/X7/Fdc4g8gGILcSYFMIorRXFy6DeKId4P52u/m5HDGIh00hMCMBiQDdOGEUCB0BziB2exDWZfgq9o7GroEXgCj3kGy7MfdcBjqwnQLFozXwAhysrpsAiQL8aOwG5rjXj1HgPd2GhlI+UFybOAsNOgsPWJcBLnPLjUXk/5oiwEBMeZM/5KIoZu91wIpTwP3pdBpWH6z+h2PFlmAKcSHWFAerBdbBuV8ojm6aOks2HQAAAABJRU5ErkJggg==') url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHySURBVEhLvZZbk6owEIQHVEQpL7xY/v9f56MPVonXdb8snR0C6JtdNRsI3enOJHvOZj+/sC9h0Iyp5/NpWZbFd54Z8zyP8x7wgbiCNGB0Z4hFkrEXDoHvKceH7pldLhe7Xq92OBxsOp1GIrT7/W77/d6KorD5fB7mBfiPx8OaprHJZNLO/pltt9tQvZh8ZFFGChNGgDFGPrmyosHMa5gjMOZoB83YGXW73WJpMQlTwEk1dEkYNFMr2AELaxc80zqSUgIhZMKCfEND8V7XtZVlGbgdM7aPGSWoJSyyXC7b2S7gw6MwgY8RAWezWQzcMYNEIfatYg7hkJnCMAJ0esZEHQrv4WcLTHQ2AkIEtKKqqnb2H2ojozdkR4RTO0HHDBEpgRLyjhFt9LsV+M5FUKvQUNqVx0czEnMx1IoU8NF5M+a82eDOTqdTuFUS6oBXq1UvpQD/fD7HMJjBXSwWtl6vw5wQVoWgUUU6EmHMQgrg4fkCzwREk7a9swIGEmpE4K+vB3yVgG4sXJjhXDhkfpl5Bohox2aziTtMcTwegw4uhtxi3ne7XWhjirgCZBJx69QGnsfOCqAhBHzp9K/M6M6USu1QrzFkgTFwOWToz3esE+G/GNoAJBQQ8U3mKeD7b5/4PXvIFAspxDuIq3qn+eLfIGYvdUjU90OjHVcAAAAASUVORK5CYII=');
-} */
 
 .link{
     color: var(--highlight-color);
@@ -355,31 +352,6 @@ button, input, .link{
     position: relative;
 }
 
-/* .quoted-text:before {
-    content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAGaSURBVEhLtZXbboMwEEQNCbk9gPj/rwy5QSC0OQ4DG+MHqNSRLGwY78yOnTb5ecP9I9LhuQh/8RLtoGkad71eXdu2LkkSXzjPc3c8Hv06BFyGuGmaurIsXZZl8w4gPB4Pdz6fXVVV7nK5+Ofz+YwW7/t+5Ngn70FU4H6/e/c4gchzs9kMjAlwX6+X5zMHmNhut6OZmQBOVVwkWkVARQS+UxwR5uIfDge/H8wEiAcBCxxZVxaKQwXBbrebC8gdByxHAsXpIgSF67r2c/jaFxXgA2RaVjwUQJjiVlDgQPluz4e5XU99vdF13Vc8bFY8MRCnXCuB/X7/Fdc4g8gGILcSYFMIorRXFy6DeKId4P52u/m5HDGIh00hMCMBiQDdOGEUCB0BziB2exDWZfgq9o7GroEXgCj3kGy7MfdcBjqwnQLFozXwAhysrpsAiQL8aOwG5rjXj1HgPd2GhlI+UFybOAsNOgsPWJcBLnPLjUXk/5oiwEBMeZM/5KIoZu91wIpTwP3pdBpWH6z+h2PFlmAKcSHWFAerBdbBuV8ojm6aOks2HQAAAABJRU5ErkJggg==');
-    text-align: left;
-} */
-
-/* .quoted-text:after {
-    content: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAHySURBVEhLvZZbk6owEIQHVEQpL7xY/v9f56MPVonXdb8snR0C6JtdNRsI3enOJHvOZj+/sC9h0Iyp5/NpWZbFd54Z8zyP8x7wgbiCNGB0Z4hFkrEXDoHvKceH7pldLhe7Xq92OBxsOp1GIrT7/W77/d6KorD5fB7mBfiPx8OaprHJZNLO/pltt9tQvZh8ZFFGChNGgDFGPrmyosHMa5gjMOZoB83YGXW73WJpMQlTwEk1dEkYNFMr2AELaxc80zqSUgIhZMKCfEND8V7XtZVlGbgdM7aPGSWoJSyyXC7b2S7gw6MwgY8RAWezWQzcMYNEIfatYg7hkJnCMAJ0esZEHQrv4WcLTHQ2AkIEtKKqqnb2H2ojozdkR4RTO0HHDBEpgRLyjhFt9LsV+M5FUKvQUNqVx0czEnMx1IoU8NF5M+a82eDOTqdTuFUS6oBXq1UvpQD/fD7HMJjBXSwWtl6vw5wQVoWgUUU6EmHMQgrg4fkCzwREk7a9swIGEmpE4K+vB3yVgG4sXJjhXDhkfpl5Bohox2aziTtMcTwegw4uhtxi3ne7XWhjirgCZBJx69QGnsfOCqAhBHzp9K/M6M6USu1QrzFkgTFwOWToz3esE+G/GNoAJBQQ8U3mKeD7b5/4PXvIFAspxDuIq3qn+eLfIGYvdUjU90OjHVcAAAAASUVORK5CYII=');
-    text-align: right;
-} */
-
-
-/* .quoted-text:before, .quoted-text:after {
-    display: inline-block;
-}
-
-.quoted-text:before, .quoted-text:after {
-    display: inline-block;
-    width: 100%;
-    color: #DCDCDC;
-    font-size: 60px;
-    font-weight: 800;
-    font-family: "Nunito";
-    font-style: italic;
-} */
-
 
 .quote-author{
     text-align: center;
@@ -509,7 +481,6 @@ button, input, .link{
 .prev-btn__arrow{
     border-left: 2px solid #d9d9d9;
     transform: rotate(45deg) translateX(25%);
-    /* transform: translateX(25%); */
 }
 
 .next-btn:hover, .prev-btn:hover{
@@ -562,8 +533,6 @@ button, input, .link{
     margin: 3em 0 3em 0;
     display: none;
     box-shadow: 
-    /* 0 0px 20px 20px #EDEDED inset, */
-    /* 0 -10px 20px 20px green */
     0 -5px 20px 20px #EDEDED inset;
 }
 
