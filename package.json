@@ -1,0 +1,19 @@
+{
+  "name": "test_layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass ./src/scss/main.scss ./src/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viper-JSX/Layout-Test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viper-JSX/Layout-Test/issues"
+  },
+  "homepage": "https://github.com/Viper-JSX/Layout-Test#readme"
+}
