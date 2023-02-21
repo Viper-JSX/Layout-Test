@@ -7,16 +7,16 @@
     }
 
     .email-form{
-		> input[type='submit']{
+		  > input[type='submit']{
         	width: 80px;
         	font-size: 16px;
-		}
+		  }
     }
 
     .email-form{
-		> input[type='email']{
+		  > input[type='email']{
         	width: 210px;
-		}
+		  }
     }
 
     .range-section__slider{
@@ -33,9 +33,9 @@
     }
 
     .why-section{
-		.image-container{
+		  .image-container{
         	display: block;
-		}
+		  }
     }
 
     .info-blocks-container{
@@ -45,18 +45,18 @@
     }
 
     .info-blocks-container{
-		.info-block{
+		  .info-block{
         	justify-content: center;
         	flex-direction: row;
         	flex-wrap: wrap;
-		}
+		  }
     }
     
     .info-blocks-container{
-		.info-block .info-block__item{
+		  .info-block .info-block__item{
         	width: 150px;      
         	margin: 5px;
-		}
+		  }
     }
 } 
 

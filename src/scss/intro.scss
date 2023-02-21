@@ -55,8 +55,10 @@
     line-height: 27px;
 }
 
-.intro__inner .email-form{
-    margin-top: 52px
+.intro__inner{
+	.email-form{
+    	margin-top: 52px;
+	}
 }
 
 .email-form{
@@ -65,46 +67,54 @@
 }
 
 .email-form{ 
-	> input[type="email"]{
-    	width: 333px;
-    	height: 47px;
-    	padding: 0 1.8rem 0 1.8rem;
-    	border-radius: 22px;
-    	border: none;
-    	transform: translateX(0.75rem);
-    	color: #8c8c8c;
-    	font-family: "Yantramanav";
-    	font-size: 18px;
-    	letter-spacing: 0.5px;
+	> input{
+		&[type="email"]{
+    		width: 333px;
+    		height: 47px;
+    		padding: 0 1.8rem 0 1.8rem;
+    		border-radius: 22px;
+    		border: none;
+    		transform: translateX(0.75rem);
+    		color: #8c8c8c;
+    		font-family: "Yantramanav";
+    		font-size: 18px;
+    		letter-spacing: 0.5px;
+		}
 	}
 }
 
 .email-form{
-		> input[type="email"]:focus{
-    	outline: none;
-	}
+		> input{
+			&[type="email"]:focus{
+    			outline: none;
+			}
+		}
 }
 
 .email-form {
-	> input[type="submit"]{
-	    width: 167px;
-	    height: 47px;
-	    color: $light-color;
-	    background-color: $highlight-color;;
-	    border: none;
-	    border-radius: 0 22px 22px 0;
-	    transform: translateX(-0.75rem);
-	    transition: 0.3s;
-	    font-family: "Yantramanav";
-	    font-size: 22px;
-	    letter-spacing: 0.55px;
-	    display: block;
+	> input{
+		&[type="submit"]{
+	    	width: 167px;
+	    	height: 47px;
+	    	color: $light-color;
+	    	background-color: $highlight-color;;
+	    	border: none;
+	    	border-radius: 0 22px 22px 0;
+	    	transform: translateX(-0.75rem);
+	    	transition: 0.3s;
+	    	font-family: "Yantramanav";
+	    	font-size: 22px;
+	    	letter-spacing: 0.55px;
+	    	display: block;
+		}
 	}
 }
 
 .email-form{ 
-	> input[type="submit"]:hover{
-    	background-color: green;
+	> input{
+		&[type="submit"]:hover{
+    		background-color: green;
+		}
 	}
 }
 
@@ -140,9 +150,11 @@
 }
 
 .section-navigation__list{
-	> li.active {
-		> a {
-    		transform: scale(1.5);
+	> li{
+		&.active {
+			> a {
+    			transform: scale(1.5);
+			}
 		}
 	}
 }
