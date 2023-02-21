@@ -1,0 +1,67 @@
+/*--- media query---*/
+@media screen and (max-width: 520px){
+    .stockist-items-container{
+        padding: 74px 15px 74px 15px;
+        column-gap: 35px;
+        row-gap: 35px;
+    }
+
+    .email-form{
+		> input[type='submit']{
+        	width: 80px;
+        	font-size: 16px;
+		}
+    }
+
+    .email-form{
+		> input[type='email']{
+        	width: 210px;
+		}
+    }
+
+    .range-section__slider{
+        max-height: 220px;
+        min-height: 120px;
+    }
+
+}
+
+@media screen and (max-width: 1240px){
+    .why-section{
+        background-image: none;
+        padding: 85px 0.2em 0 0.2em;
+    }
+
+    .why-section{
+		.image-container{
+        	display: block;
+		}
+    }
+
+    .info-blocks-container{
+        padding: 0;
+        flex-direction: column;
+        background-image: none;
+    }
+
+    .info-blocks-container{
+		.info-block{
+        	justify-content: center;
+        	flex-direction: row;
+        	flex-wrap: wrap;
+		}
+    }
+    
+    .info-blocks-container{
+		.info-block .info-block__item{
+        	width: 150px;      
+        	margin: 5px;
+		}
+    }
+} 
+
+@media screen and (max-width: 1278px){
+    .indicator-strip, .indicator-ellipse{
+        display: none;
+    }
+}

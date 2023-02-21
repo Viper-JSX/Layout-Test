@@ -1,0 +1,14 @@
+/*--- Common styles that differ from others ---*/
+.range-section, .why-section, .find-us-section{
+	.title-sub-text{
+    	margin: 10px 0 0 0;
+    	font-family: "Yantramanav";
+    	font-weight: 100;
+    	letter-spacing: 0.09px;
+    	line-height: 20px;
+	}
+}
+
+.email-link, .tel-link{
+    font-weight: 400;
+}
