@@ -205,13 +205,14 @@ button, input, .link{
 }
 
 .email-form{
-    min-width: 280px;
+    min-width: 300px;
+    display: flex; /* Flex is used to keep input and block-displayed button on the same row */
 }
 
 .email-form > input[type="email"]{
     width: 333px;
     height: 47px;
-    padding-left: 1.8rem;
+    padding: 0 1.8rem 0 1.8rem;
     border-radius: 22px;
     border: none;
     transform: translateX(0.75rem);
@@ -235,8 +236,9 @@ button, input, .link{
     transform: translateX(-0.75rem);
     transition: 0.3s;
     font-family: "Yantramanav";
-    font-size: 19px;
+    font-size: 22px;
     letter-spacing: 0.55px;
+    display: block;
 }
 
 .email-form > input[type="submit"]:hover{
@@ -786,13 +788,14 @@ footer > .text{
     }
 }
 
-@media screen and (max-width: 900px){ /* To wrap intro slider's navigation */
+@media screen and (max-width: 900px){
     .email-form > input[type='submit']{
         width: 80px;
+        font-size: 16px;
     }
 
     .email-form > input[type='email']{
-        width: 200px;
+        width: 210px;
     }
 }
 
