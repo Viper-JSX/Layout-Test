@@ -755,9 +755,7 @@ footer > .text{
         column-gap: 35px;
         row-gap: 35px;
     }
-}
 
-@media screen and (max-width: 900px){
     .email-form > input[type='submit']{
         width: 80px;
         font-size: 16px;
@@ -766,6 +764,7 @@ footer > .text{
     .email-form > input[type='email']{
         width: 210px;
     }
+
 }
 
 @media screen and (max-width: 1240px){
